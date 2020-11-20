@@ -1,0 +1,441 @@
+body{
+    margin:0;
+}
+#fondo{
+    height: 100vh;
+    width: 100%;
+        }
+.carrusel{
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+nav a{
+    color: azure;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    }
+
+nav a:hover{
+    color: rgb(5, 120, 197);
+            }
+
+.titulo{
+    top: 0%;
+    position:fixed;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px;
+    box-sizing: border-box;
+        }
+.LOgo{
+    float: left;
+    margin: auto 10px;
+    box-sizing: border-box;
+}
+.navegacion{
+    float: right;
+    margin: auto 10px;
+    box-sizing: border-box;
+}
+.Secciones{
+    padding: 3rem 0;
+    margin-top: 10%;
+    background-color: rgb(245, 243, 243);
+}
+#CajaNosotros{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(245, 243, 243) ;
+}
+.Nosotros{
+    width: 100%;
+    display: flex;
+    height: 50%;
+}
+
+.subN{
+    width: 50%;
+    height: 50%;
+    padding: 2% 2%;
+
+}
+#S2{
+    margin-top: 20% ;
+}
+.h2{
+    color: rgb(36, 36, 36);
+    margin: auto;
+    cursor: default;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-transition:  1s ease;
+    transition:  1s ease;
+}
+.h2:hover{
+    font-size: 2.5rem;
+}
+.pstyle{
+    font-size: 1rem;
+    text-align: justify;
+    height: 100%;
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(92, 96, 100);
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  #textoC{
+    width: 50%;
+    margin: 0px center;
+}
+
+.cuadritos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.relativo{
+   
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float:left;
+}
+.absoluto{
+    background-size: cover; 
+    border: none;
+    width: 50%;
+    height: 50%;
+}
+
+.pclientes{
+    font-size: 1rem;
+    text-align: center;
+    direction: rtl;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(92, 96, 100);
+    cursor: default;
+}
+.pclientes:hover{
+    color: black;
+    font-style: normal;
+}
+
+#river{
+    background-image: url("./Clientes/river.png");
+    background-position: center center;
+    background-size: cover;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#river:hover{
+        -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+        box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+#coppel{
+    background-image: url("./Clientes/Coppel.png");
+    background-position: center center;
+    background-size: cover;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#coppel:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);  
+}
+#CNEA{
+    background-image: url("./Clientes/CNEA.svg");
+    background-position: center center;
+    background-size: cover;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#CNEA:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47); 
+}
+#Defyjus{
+    background-image: url("./Clientes/defensa.png");
+    background-position: center center;
+    background-size: cover;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#Defyjus:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47); 
+}
+#CasaRosada{
+    background-image: url("./Clientes/Casa\ Rosada.jpg");
+    background-position: center center;
+    background-size: cover;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#CasaRosada:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47); 
+}
+#COEPAZ{
+    background-image: url("./Clientes/coepaz.jpg");
+    background-position: center center;
+    background-size: cover;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#COEPAZ:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47); 
+}
+#info{
+    height: 100vh;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin: 2.5rem 0;
+    background-image: url("./imagenes/blanco.png");
+    background-position: center center;
+    background-size: cover;
+}
+#NS{
+    background-color: rgb(245, 243, 243);
+}
+.ContIn{
+    border: none;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    float: left;
+    box-sizing: border-box;
+}
+#info1{
+    width: 50%;
+    height: 50%;
+    margin-top: 15% ;
+    margin-left: 2%;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+#info1:hover{
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+#info2{
+    width: 50%;
+    height: 50%;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#info2:hover{
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+#info3{
+    width: 50%;
+    height: 50%;
+    margin-top: 15% ;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#info3:hover{
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+#info4{
+    width: 50%;
+    height: 50%;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#info4:hover{
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+#info5{
+    width: 50%;
+    height: 50%;
+    margin-top: 15% ;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#info5:hover{
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+
+#info6{
+    width: 50%;
+    height: 50%;
+    margin-right: 2%;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#info6:hover{
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+}
+.h4{
+    color: rgb(36, 36, 36);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: default;
+    }
+.h4:hover{
+    color: rgb(5, 120, 197);
+}
+.pru{
+    font-size: 0.75rem;
+    text-align: center;
+    height: 100%;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(92, 96, 100);
+}
+#ubicacion{
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+#mapa{
+    text-align: center;
+    margin-top: 1%;
+    background-image: url("./imagenes/blanco3.png");
+    background-position: center center;
+    background-size: cover;
+}
+#UB{
+    background-image: url("./imagenes/blanco3.png");
+    background-position: center center;
+    background-size: cover;
+}
+#enConsulta{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 1rem 0 1rem;    
+    background-color:  rgb(245, 243, 243);
+}
+
+.bordeC{
+    border: 2px solid rgb(92, 96, 100);
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+#Consultainfo{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    background-color: rgb(92, 96, 100);
+}
+
+#ConsultaCa{
+    
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    background-color: rgb(92, 96, 100);
+
+}
+
+input[type=text]{
+    width: 100%;
+    height: 64px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: none;
+}
+#txtmail{
+    outline: none;
+}
+
+#txtnombre{
+    outline: none;
+}
+
+#txtconsulta{
+    height: 80%;
+    outline: none;
+    border: 0;
+}
+
+input[type=number]{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+#numtel{
+    outline: none;
+}
+input[type=button]{
+    width: 25%;
+    height: 20px;
+    margin: 5px 0 5px 5px;
+    border-radius: 7px;
+    border: none;
+    float: right;
+    cursor: pointer;
+    outline: none;
+}
+
+.FC{
+    font-size: 0.75rem;
+    text-align: justify;
+    height: 100%;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+footer {
+    text-align: center;
+    height: 15%;
+    padding: 3px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    cursor: default;
+  }
